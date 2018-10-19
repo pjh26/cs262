@@ -57,4 +57,4 @@ INSERT INTO PlayerGame VALUES (2, 2, 0, 0, 0, 0, 0, 0);
 INSERT INTO PlayerGame VALUES (2, 3, 500, 0, 0, 0, 0, 0);
 INSERT INTO PlayerGame VALUES (3, 2, 0, 0, 0, 0, 0, 0);
 INSERT INTO PlayerGame VALUES (3, 3, 5500, 0, 0, 0, 0, 0);
-INSERT INTO PlayerGame VALUES (3, 4, 0, 0, 0, 0, 0, 0);
+INSERT INTO PlayerGame VALUES (4, 4, 0, 0, 0, 0, 0, 0);
