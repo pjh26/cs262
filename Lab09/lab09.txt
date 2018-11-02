@@ -1,0 +1,26 @@
+9.1
+a.) How many API endpoints does this application support and where are they implemented?
+  
+  This application supports 2 API endpoints and they are implemented in the PlayerResource.java file
+
+
+
+b.) PlayerResource.java
+		What is the Java-based technology used to access data from a database?
+			Java Database Connectivity (JDBC)
+	
+		Compare and contrast the following:
+			- SQL query statements vs. JDBC statement objects
+				SQL statements access a database while JDBC statements objects gets the data into Java Objects
+			- SQL relations vs. JDBC result sets vs. List<Player>
+				SQL relations are the connections in the database. The JDBC result just contains the JSON query results. List<Player> is a list that contains the player object properties
+
+		Under what circumstances would the function getValueStringOrNull() be used?
+			This would be used to handle instances when a query returnst a null value, or when there is no result.
+
+c.) Player.java
+		What purpose does this Player DAO serve?
+			The purpose of the Player DAO is to hold a player object and methods as well as return any player properties
+
+		How does it compare with the Player table?
+			It is fairly similar to the Player table that was created in the SQL script. Both define a player and ther properties howver, the SQL implementation is the database version which defines the information the table will hold, while the java is the code version, and just reads the values. 

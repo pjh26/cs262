@@ -50,11 +50,11 @@ INSERT INTO Player VALUES (3, 'dog@gmail.edu', 'Dogbreath');
 INSERT INTO Player VALUES (4, 'pjh26@students.calvin.edu', 'peterhaags');
 
 INSERT INTO PlayerGame VALUES (1, 1, 0, 0, 0, 0, 0, 0);
-INSERT INTO PlayerGame VALUES (1, 2, 0, 0, 0, 0, 0, 0);
+INSERT INTO PlayerGame VALUES (1, 2, 1, 0, 0, 0, 0, 0);
 INSERT INTO PlayerGame VALUES (1, 3, 2350, 0, 0, 0, 0, 0);
 INSERT INTO PlayerGame VALUES (2, 1, 1000, 0, 0, 0, 0, 0);
-INSERT INTO PlayerGame VALUES (2, 2, 0, 0, 0, 0, 0, 0);
+INSERT INTO PlayerGame VALUES (2, 2, 2, 0, 0, 0, 0, 0);
 INSERT INTO PlayerGame VALUES (2, 3, 500, 0, 0, 0, 0, 0);
-INSERT INTO PlayerGame VALUES (3, 2, 0, 0, 0, 0, 0, 0);
+INSERT INTO PlayerGame VALUES (3, 2, 3, 0, 0, 0, 0, 0);
 INSERT INTO PlayerGame VALUES (3, 3, 5500, 0, 0, 0, 0, 0);
 INSERT INTO PlayerGame VALUES (4, 4, 0, 0, 0, 0, 0, 0);
